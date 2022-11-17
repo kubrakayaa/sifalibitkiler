@@ -1,0 +1,559 @@
+@media only screen and (max-width: 1100px) {
+    
+    /***************************************************** UST İLETİSİM START *****************************************************/
+
+/* UST İLETİSİM FONT */
+
+.callme{
+    white-space: nowrap;
+	font-size: 17px;
+}
+.up-number{
+	font-size: 9px;
+}
+
+/***************************************************** UST İLETİSİM END *******************************************************/
+
+
+/**************************************************** NAVBAR START*********************************************************/
+
+
+.up-menu {
+	top: 0;
+    display: flex;
+    background-color: #033F07 ;
+	z-index: 20;
+	width: 100%;
+}
+
+/* NAVBAR LOGO */
+
+.logo-navbar{
+    width: 12vh;
+}
+
+
+/* NAVBAR RIGHT */
+
+.up-right {
+    margin-left: 15%;
+}
+
+
+.navbar-li {
+    font-size: 13px;
+    margin-top: 2vh;
+}
+
+/* NAVBAR SIGN IN */
+
+
+#panel {
+    padding-left: 2vh;
+    padding-right: 2vh;
+
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+/**************************************************** NAVBAR END*********************************************************/
+/**************************************************** DOWN-MENU START ****************************************************/
+
+/* DOWN-MENU İMG */
+
+.carousel-img {
+	height: 45vh;
+
+
+}
+
+/* DOWN-MENU BASLIK */
+
+.corusel-baslik {
+    width: 30%;
+    font-size: 20px;
+    
+}
+
+.carousel-font {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 30%;
+    height: 40%;
+    font-size: 13px;
+}
+/* DOWN-MENU button */
+
+
+.more {
+	font-size: 9px;
+}
+
+.more:hover{
+	background-color: #033F07;
+	transition: 1s;
+}
+
+
+
+/***************************************************** DOWN-MENU END *****************************************************/
+/***************************************************** MAİN START *****************************************************/
+
+.main-baslik{
+    font-size: 30px;
+}
+.main-aciklama{
+	font-size: 15px;
+}
+
+
+/***************************************************** MAİN END *****************************************************/
+/***************************************************** MAİN2 START *****************************************************/
+
+
+.main2-baslik{
+    font-size: 30px;
+}
+
+.main2-aciklama{
+	font-size: 15px;
+
+}
+
+/***************************************************** MAİN2 END *****************************************************/
+
+/* **************************************************** FOOTER START *****************************************************/
+
+/* Slogan */
+.footer-slogan{
+	font-size: 15px;
+
+}
+
+/* Contact */
+
+
+.contact-baslik{
+    font-size: 25px;
+
+}
+.contact-number{
+	font-size: 15px;
+
+}
+
+.contact-mail{
+	font-size: 15px;
+
+}
+.gg-mail{
+	margin-left: 15%;
+
+}
+.mail{
+	padding-left: 3%;
+}
+.contact-adres{
+	font-size: 15px;
+	margin-top: 10%;
+	display: flex;
+
+}
+.gg-home{
+	margin-top: 1%;
+	margin-left: 1%;
+
+}
+
+
+/* Form */
+
+.form{
+	width: 25%;
+}
+
+
+#email{
+	padding-left: 5px;
+    font-size: 15px;
+}
+#textarea{
+	border-radius: 10px;
+	border-color: black;
+	padding-left: 10px;
+	color: black;
+    width: 20vh;
+
+}
+
+}
+
+
+@media only screen and (max-width: 700px) {
+    /***************************************************** UST İLETİSİM START *****************************************************/
+
+.mobile-nav{
+    display: block;
+}
+.navbarr{
+    display: none;
+}
+/* UST İLETİSİM EMAİL */
+.iletisim{
+	width: 20%;
+	display: flex; 
+}
+.borderr{
+	width: 70%;
+}
+
+.email{
+	padding-left: 1px;
+	padding-right:10px;
+
+}
+
+/* UST İLETİSİM LOKASYON */
+
+.lokasyon{
+	margin-left: 3vh;
+	margin-right: 3vh;
+	padding-left: 1px;
+	padding-right: 9px;
+}
+
+/* UST İLETİSİM NUMBER */
+
+.number{
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+/* UST İLETİSİM ICON */
+
+
+
+
+/***************************************************** UST İLETİSİM END *******************************************************/
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dce0e2;
+}
+
+.main-left{
+    margin-left: auto;
+    margin-right: auto;
+	width: 60vh;
+padding-left: 15%;
+
+}
+.main-img{
+width: 80%;
+margin-top: 2vh;
+margin-left: 0%;
+border-radius: 10px;
+}
+
+.main-right{
+    margin-left: auto;
+    margin-right: auto;
+	width: 60vh;
+}
+.main-baslik{
+color: black;
+text-align: center;
+margin-top: 10%;
+font-size: 20px;
+
+}
+.main-aciklama{
+color: black;
+margin-top: 15%;
+font-size: 15px;
+padding-left: 15%;
+}
+/***************************************************** MAİN2 START *****************************************************/
+
+.main2{
+	background-color: #dce0e2;
+
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.section1{
+    margin-left: auto;
+    margin-right: auto;
+	width: 50vh;
+	color: black;
+}
+
+.section2{
+    margin-left: auto;
+    margin-right: auto;
+	width: 50vh;
+}
+
+.section3{
+    margin-left: auto;
+    margin-right: auto;
+	width: 50vh;
+}
+
+.main2-baslik{
+	color: black;
+	text-align: center;
+	margin-top: 5%;
+	font-size: 20px;
+
+}
+
+.main2-aciklama{
+	color: black;
+	text-align: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	font-size: 13px;
+
+}
+
+/***************************************************** MAİN2 END *****************************************************/
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .number{
+        padding-left: 0px;
+        padding-right: 1px;
+    }
+    .borderr{
+        width: 70%;
+    }
+    .callme{
+    
+        font-size: 9px;
+    }
+    .up-number{
+        font-size: 7px;
+    }
+
+    .number .up-number{
+        white-space: nowrap;
+    }
+
+/**************************************************** NAVBAR START*********************************************************/
+
+
+    /* NAVBAR LOGO */
+
+    .logo-navbar{
+        width: 10vh;
+    }
+
+
+    /* NAVBAR RIGHT */
+
+    .up-right {
+        margin-left: 20%;
+    }
+
+
+    .navbar-li {
+        padding-right: 13px;
+
+        font-size: 10px;
+        margin-top: 2vh;
+    }
+
+    /* NAVBAR SIGN IN */
+
+
+    #panel {
+        padding-left: 2vh;
+        padding-right: 2vh;
+
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
+
+/**************************************************** NAVBAR END*********************************************************/
+/**************************************************** DOWN-MENU START ****************************************************/
+
+/* DOWN-MENU İMG */
+
+.carousel-img {
+	height: 65vh;
+
+
+}
+
+/* DOWN-MENU BASLIK */
+
+.corusel-baslik {
+    width: 30%;
+    font-size: 15px;
+    
+}
+
+.carousel-font {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 30%;
+    height: 40%;
+    font-size: 9px;
+}
+/* DOWN-MENU button */
+
+
+.more {
+	font-size: 8px;
+}
+
+.more:hover{
+	background-color: #033F07;
+	transition: 1s;
+}
+
+
+
+/***************************************************** DOWN-MENU END *****************************************************/
+/***************************************************** MAİN START *****************************************************/
+
+
+/***************************************************** MAİN END *****************************************************/
+/***************************************************** MAİN2 START *****************************************************/
+
+
+.main2-baslik{
+    font-size: 30px;
+}
+
+.main2-aciklama{
+	font-size: 15px;
+
+}
+
+/***************************************************** MAİN2 END *****************************************************/
+
+.footer{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.slogan{
+	width: 50vh;
+	justify-content: center;
+	align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+.contact{
+	width: 50vh;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contact-baslik{
+	margin-top: 10%;
+
+}
+.contact-number{
+	font-size: 15px;
+	display: flex;
+
+}
+.gg-phone{
+	margin-left: 31%;
+	padding-right: 10%;
+
+}
+.contact-mail{
+	font-size: 17px;
+	display: flex;
+
+}
+.gg-mail{
+	margin-left: 21%;
+	margin-top: 1%;
+
+}
+.mail{
+	padding-left: 3%;
+}
+.contact-adres{
+	font-size: 20px;
+	margin-top: 10%;
+	display: flex;
+
+}
+.gg-home{
+	margin-top: 1%;
+	margin-left: 3%;
+
+}
+.adres{
+	padding-left: 4%;
+}
+
+.icons{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3%;
+}
+.iconlink{
+	padding-right: 10px;
+}
+
+.form{
+	margin-top: 8%;
+	width: 50vh;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#name{
+	width: 35%;
+	
+
+}
+
+#email{
+	width: 35%;
+
+}
+#textarea{
+    width: 45%;
+	border-radius: 10px;
+	border-color: black;
+	padding-left: 10px;
+	color: black;
+
+
+}
+#textarea:focus{
+	outline: ridge yellowgreen;
+	box-shadow: 0 0 10px #ddd;
+	outline-style: auto;
+	border-color: yellowgreen;
+
+}
+}

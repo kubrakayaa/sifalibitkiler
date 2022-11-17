@@ -1,0 +1,617 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+	
+}
+body{
+	overflow-x: hidden;
+
+}
+
+/* Preloader */
+
+.mobile-nav{
+	height: 5%;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	padding-bottom: 2vh;
+	padding-top: 3vh;
+
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: black;
+	border-radius: 10px;
+	display: none;
+
+}
+.navv-link{
+	text-decoration: none;
+	color: white;
+	
+}
+.navv-link:hover{
+	color: white;
+}
+.ofcanvas{
+	list-style-type: none;
+	margin-top: 2vh;
+	border-style: solid;
+	text-align: center;
+	border-radius: 20px;
+	border-width: 1px;
+	font-size: 11px;
+}
+.ofcanvas:hover{
+	background-color: #20B806;
+	transition: 1s;
+}
+#offcanvasRight{
+	width: 40%;
+	background-color: black;
+}
+.preloader{
+	display: block;
+	background-color: yellowgreen;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+	text-align: center;
+}
+.spinner{
+	margin-top: 40vh;
+	animation: blink 1s linear infinite;
+}
+@keyframes blink{
+	0%{opacity: 0;}
+	50%{opacity: .5;}
+	100%{opacity: 1;}
+	}
+
+/* Bottom-right Home */
+
+.homee{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	background-color: #033F07;
+	padding: 15px 15px;
+	border: solid;
+	border-color: white;
+	opacity: 0;
+}
+.homee:hover{
+	transition: 1s;
+	background-color: yellowgreen;
+}
+
+/* ScrollBar */
+
+
+	/* width */
+	::-webkit-scrollbar {
+		width: 7px;
+	}
+	
+	/* Track */
+	::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 5px greenyellow; 
+	}
+	
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #033F07; 
+	}
+	
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: greenyellow; 
+	}
+
+
+/* HEADER START */
+
+.header {
+    position: relative;
+    height: 70vh;
+}
+
+/***************************************************** UST İLETİSİM START *****************************************************/
+.up-number-menu{
+	height: 85px !important;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+
+	background-color: black;
+	display: flex;
+}
+
+/* UST İLETİSİM CİZGİ */
+
+.iletisim{
+	width: 50%;
+	display: flex; 
+}
+.borderr{
+	width: 90%;
+	height: 0;
+	border-style: solid;
+	border-color: rgb(161, 161, 161);
+	margin-top: auto;
+	margin-bottom: auto;
+	border-width: 1px;
+}
+
+/* UST İLETİSİM EMAİL */
+
+.email{
+	padding-left: 10px;
+	padding-right:70px;
+	display: flex;
+	border-right: solid;
+	border-right-width: 1px;
+	border-color: gray;
+
+}
+.email:hover, .number:hover, .lokasyon:hover{
+	border: solid;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 10px;
+	box-shadow: 0px 2px gray;
+
+}
+
+/* UST İLETİSİM LOKASYON */
+
+.lokasyon{
+	margin-left: 5vh;
+	margin-right: 5vh;
+	padding-left: 10px;
+	padding-right: 70px;
+	border-right: solid;
+	border-right-width: 1px;
+	border-color: gray;
+	display: flex;
+}
+
+/* UST İLETİSİM NUMBER */
+
+.number{
+	padding-left: 10px;
+	padding-right: 70px;
+	border-right: solid;
+	border-right-width: 1px;
+	border-color: gray;
+	display: flex;
+}
+/* UST İLETİSİM ICON */
+
+.icon{
+	margin-top: 2vh;
+	margin-right: 2vh;
+}
+
+
+/* UST İLETİSİM FONT */
+
+.callme{
+    white-space: nowrap;
+
+	font-size: 25px;
+}
+.up-number{
+	font-size: 12px;
+}
+
+/***************************************************** UST İLETİSİM END *******************************************************/
+
+/**************************************************** NAVBAR START*********************************************************/
+
+
+.up-menu {
+	top: 0;
+    display: flex;
+    background-color: #033F07 ;
+	z-index: 20;
+	width: 100%;
+}
+
+/* NAVBAR LOGO */
+
+
+.up-left {
+	padding-top: 1vh;
+	background-color: white;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+	border-top-right-radius: 10vh;
+	border-bottom-right-radius: 10vh;
+
+
+}
+
+/* NAVBAR RIGHT */
+
+.up-right {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+
+.navbarr {
+    display: flex;
+    margin-right: 5vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    padding-right: 30px;
+    margin-top: 2vh;
+    font-weight: 5px;
+}
+
+/* NAVBAR SIGN IN */
+
+
+#panel {
+    padding-left: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 100px;
+    white-space: nowrap;
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+    color: yellowgreen;
+}
+
+#panel:hover {
+    color: black;
+    background-color: greenyellow;
+    transition: 1s;
+}
+
+/**************************************************** NAVBAR END*********************************************************/
+
+
+
+/**************************************************** DOWN-MENU START ****************************************************/
+
+/* DOWN-MENU İMG */
+
+.carousel-img {
+	width: 100%;
+	height: 75vh;
+	min-height: 50vh;
+	opacity: 0.9;
+
+
+}
+
+/* DOWN-MENU BASLIK */
+
+.corusel-baslik {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 50%;
+    height: 40%;
+    font-size: 30px;
+    white-space: nowrap;
+
+}
+
+.carousel-font {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 40%;
+    font-size: 18px;
+}
+/* DOWN-MENU button */
+
+
+.more {
+    position: absolute;
+    top: 68%;
+    left: 15%;
+    border-style: none;
+	border-color: white;
+    background-color: #20B806 ;
+	color: white;
+	font-weight: bolder;
+	font-size: 17px;
+	padding: 1vh 1vh 1vh 1vh;
+    border: 1px solid transparent;
+}
+
+.more:hover{
+	background-color: #033F07;
+	transition: 1s;
+}
+
+
+
+/***************************************************** DOWN-MENU END *****************************************************/
+
+/***************************************************** HEADER END *****************************************************/
+
+
+
+
+
+/***************************************************** SPACE DİV *****************************************************/
+
+.bosluk{
+	height: 15vh;
+	background-color: #dce0e2;
+
+}
+.boslukk{
+	height: 2vh;
+	background-color: #dce0e2;
+
+}
+.boslukkk{
+	height: 8vh;
+	background-color: #dce0e2;
+
+}
+
+
+
+
+
+/***************************************************** MAİN START *****************************************************/
+
+.main{
+	display: flex;
+	background-color: #dce0e2;
+}
+
+.main-left{
+	width: 50%;
+}
+.main-img{
+	width: 80%;
+	margin-top: 20vh;
+	margin-left: 20%;
+	border-radius: 10px;
+}
+
+.main-right{
+	width: 50%;
+}
+.main-baslik{
+	color: black;
+	text-align: center;
+	margin-top: 10%;
+
+}
+.main-aciklama{
+	color: black;
+	margin-top: 15%;
+	font-size: 23px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+/***************************************************** MAİN END *****************************************************/
+
+
+
+/***************************************************** İMG START *****************************************************/
+
+.img{
+	height: 30vh;
+	background-image: url("../image/bg/c.png");
+	background-position: center;
+	min-height: 70%;
+	background-size: 120%;
+	background-repeat: cover;
+	background-attachment: fixed;
+}
+/***************************************************** İMG END *****************************************************/
+
+/***************************************************** MAİN2 START *****************************************************/
+
+.main2{
+	background-color: #dce0e2;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.section1{
+	width: 33%;
+	color: black;
+}
+
+.section2{
+	width: 33%;
+	color: black;
+}
+
+.section3{
+	width: 33%;
+	color: black;
+}
+
+.main2-baslik{
+	color: black;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.main2-aciklama{
+	color: black;
+	text-align: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	font-size: 20px;
+
+}
+
+/***************************************************** MAİN2 END *****************************************************/
+
+
+/* **************************************************** FOOTER START *****************************************************/
+
+.footer{
+	background-image: url("https://html.xpeedstudio.com/bagan/assets/images/footer-pattern.png");
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 1vh;
+}
+
+/* Slogan */
+.slogan{
+	width: 30%;
+	justify-content: center;
+	align-items: center;
+}
+.footer-logo{
+	margin-top: 10%;
+	margin-left: 5%;
+
+}
+
+.footer-slogan{
+	margin-top: 5%;
+	font-size: 20px;
+	margin-left: 5%;
+
+}
+
+/* Contact */
+
+.contact{
+	width: 30%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.contact-baslik{
+	margin-top: 10%;
+
+}
+.contact-number{
+	font-size: 20px;
+	display: flex;
+
+}
+.gg-phone{
+	margin-left: 27%;
+	padding-right: 10%;
+
+}
+.contact-mail{
+	font-size: 20px;
+	display: flex;
+
+}
+.gg-mail{
+	margin-left: 24%;
+	margin-top: 1%;
+
+}
+.mail{
+	padding-left: 3%;
+}
+.contact-adres{
+	font-size: 20px;
+	margin-top: 10%;
+	display: flex;
+
+}
+.gg-home{
+	margin-top: 1%;
+	margin-left: 10%;
+
+}
+.adres{
+	padding-left: 4%;
+}
+
+.icons{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3%;
+}
+.iconlink{
+	padding-right: 10px;
+}
+
+/* Form */
+
+.form{
+	margin-top: 2%;
+	width: 30%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#name{
+	width: 55%;
+	
+	border-radius: 5px;
+	border-color: black;
+	padding-left: 10px;
+	color: black;
+
+}
+#name:focus{
+	outline: ridge yellowgreen;
+	box-shadow: 0 0 10px #ddd;
+	outline-style: auto;
+	border-color: yellowgreen;
+
+}
+
+#email{
+	width: 55%;
+	border-radius: 5px;
+	border-color: black;
+	padding-left: 10px;
+	color: black;
+
+}
+#email:focus{
+	outline: ridge yellowgreen;
+	box-shadow: 0 0 10px #ddd;
+	outline-style: auto;
+	border-color: yellowgreen;
+
+}
+#textarea{
+	border-radius: 5px;
+	border-color: black;
+	padding-left: 10px;
+	color: black;
+
+
+}
+#textarea:focus{
+	outline: ridge yellowgreen;
+	box-shadow: 0 0 10px #ddd;
+	outline-style: auto;
+	border-color: yellowgreen;
+
+}

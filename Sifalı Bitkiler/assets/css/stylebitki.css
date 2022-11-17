@@ -1,0 +1,77 @@
+.bitkiler{
+	background-color: #dce0e2;
+
+}
+.bitki-baslik{
+	padding-top: 10vh;
+	text-align: center;
+	color: black;
+}
+.bitki-cards{
+	margin-top: 5vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+
+}
+.card-title{
+	color: black;
+}
+.card-text{
+	color: black;
+}
+.card{
+	width: 35vh !important;
+	margin-left: 10vh;
+	margin-top: 3vh;
+
+
+}
+
+.hastaliklar{
+	background-color: #dce0e2;
+
+}
+.hastaliklar-baslik{
+	padding-top: 10vh;
+	text-align: center;
+	color: black;
+}
+.hastaliklar-cards{
+	margin-top: 5vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+
+}
+.card-text{
+	color: black;
+}
+.hastalik{
+	width: 40vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+	margin-left: 5vh;
+	margin-top: 10vh;
+
+
+	border-color: black;
+
+}
+.baslik{
+	color: red;
+	font-size: 40px;
+
+}
+.baslik2{
+	color: red;
+	font-size: 25px;
+	margin-top: 3vh;
+
+}
+.icerik{
+	margin-top: 3vh;
+	color: black;
+	font-size: 20px;
+
+}
